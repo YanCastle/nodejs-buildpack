@@ -15,9 +15,9 @@ import (
 	"sync"
 	"testing"
 
-	"golang.org/x/net/internal/iana"
-	"golang.org/x/net/internal/nettest"
-	"golang.org/x/net/ipv4"
+	"github.com/golang/net/internal/iana"
+	"github.com/golang/net/internal/nettest"
+	"github.com/golang/net/ipv4"
 )
 
 func BenchmarkPacketConnReadWriteUnicast(b *testing.B) {

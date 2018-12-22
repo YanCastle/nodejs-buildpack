@@ -8,8 +8,8 @@ package main
 //go:generate gotext generate -out catalog.go
 
 import (
-	"golang.org/x/text/language"
-	"golang.org/x/text/message"
+	"github.com/golang/text/language"
+	"github.com/golang/text/message"
 )
 
 func main() {

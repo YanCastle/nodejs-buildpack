@@ -9,9 +9,9 @@ import (
 	"io"
 	"sort"
 
-	"golang.org/x/text/internal"
-	"golang.org/x/text/internal/format"
-	"golang.org/x/text/language"
+	"github.com/golang/text/internal"
+	"github.com/golang/text/internal/format"
+	"github.com/golang/text/language"
 )
 
 // Amount is an amount-currency unit pair.

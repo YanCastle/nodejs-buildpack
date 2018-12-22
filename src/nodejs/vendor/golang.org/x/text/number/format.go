@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"strings"
 
-	"golang.org/x/text/feature/plural"
-	"golang.org/x/text/internal/format"
-	"golang.org/x/text/internal/number"
-	"golang.org/x/text/language"
+	"github.com/golang/text/feature/plural"
+	"github.com/golang/text/internal/format"
+	"github.com/golang/text/internal/number"
+	"github.com/golang/text/language"
 )
 
 // A FormatFunc formates a number.

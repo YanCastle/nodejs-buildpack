@@ -26,9 +26,9 @@ import (
 	"strings"
 	"sync"
 
-	"golang.org/x/text/encoding"
-	"golang.org/x/text/encoding/internal/identifier"
-	"golang.org/x/text/language"
+	"github.com/golang/text/encoding"
+	"github.com/golang/text/encoding/internal/identifier"
+	"github.com/golang/text/language"
 )
 
 var (

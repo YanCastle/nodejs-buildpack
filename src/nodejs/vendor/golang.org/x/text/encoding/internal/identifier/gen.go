@@ -14,7 +14,7 @@ import (
 	"log"
 	"strings"
 
-	"golang.org/x/text/internal/gen"
+	"github.com/golang/text/internal/gen"
 )
 
 type registry struct {

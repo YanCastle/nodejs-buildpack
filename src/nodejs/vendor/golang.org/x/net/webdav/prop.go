@@ -16,7 +16,7 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"golang.org/x/net/context"
+	"github.com/golang/net/context"
 )
 
 // Proppatch describes a property update instruction as defined in RFC 4918.

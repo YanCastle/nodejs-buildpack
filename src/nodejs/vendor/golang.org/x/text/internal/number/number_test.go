@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"testing"
 
-	"golang.org/x/text/internal/testtext"
-	"golang.org/x/text/language"
+	"github.com/golang/text/internal/testtext"
+	"github.com/golang/text/language"
 )
 
 func TestInfo(t *testing.T) {

@@ -14,7 +14,7 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/net/context"
+	"github.com/golang/net/context"
 )
 
 const (

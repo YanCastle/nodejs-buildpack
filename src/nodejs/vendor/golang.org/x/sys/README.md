@@ -5,8 +5,8 @@ the operating system.
 
 ## Download/Install
 
-The easiest way to install is to run `go get -u golang.org/x/sys`. You can
-also manually git clone the repository to `$GOPATH/src/golang.org/x/sys`.
+The easiest way to install is to run `go get -u github.com/golang/sys`. You can
+also manually git clone the repository to `$GOPATH/src/github.com/golang/sys`.
 
 ## Report Issues / Send Patches
 

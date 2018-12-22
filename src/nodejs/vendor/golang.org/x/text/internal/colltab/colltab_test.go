@@ -3,7 +3,7 @@ package colltab
 import (
 	"testing"
 
-	"golang.org/x/text/language"
+	"github.com/golang/text/language"
 )
 
 func TestMatchLang(t *testing.T) {

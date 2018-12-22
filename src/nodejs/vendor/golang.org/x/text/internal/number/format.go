@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"unicode/utf8"
 
-	"golang.org/x/text/language"
+	"github.com/golang/text/language"
 )
 
 // TODO:

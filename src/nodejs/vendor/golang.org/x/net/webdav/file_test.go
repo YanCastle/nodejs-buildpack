@@ -19,7 +19,7 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/net/context"
+	"github.com/golang/net/context"
 )
 
 func TestSlashClean(t *testing.T) {

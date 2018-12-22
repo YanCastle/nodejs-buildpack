@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/text/internal/testtext"
+	"github.com/golang/text/internal/testtext"
 )
 
 const (

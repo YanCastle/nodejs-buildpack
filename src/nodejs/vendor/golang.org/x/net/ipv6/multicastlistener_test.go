@@ -9,8 +9,8 @@ import (
 	"runtime"
 	"testing"
 
-	"golang.org/x/net/internal/nettest"
-	"golang.org/x/net/ipv6"
+	"github.com/golang/net/internal/nettest"
+	"github.com/golang/net/ipv6"
 )
 
 var udpMultipleGroupListenerTests = []net.Addr{

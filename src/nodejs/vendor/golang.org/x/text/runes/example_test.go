@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"unicode"
 
-	"golang.org/x/text/runes"
-	"golang.org/x/text/transform"
-	"golang.org/x/text/unicode/norm"
-	"golang.org/x/text/width"
+	"github.com/golang/text/runes"
+	"github.com/golang/text/transform"
+	"github.com/golang/text/unicode/norm"
+	"github.com/golang/text/width"
 )
 
 func ExampleRemove() {

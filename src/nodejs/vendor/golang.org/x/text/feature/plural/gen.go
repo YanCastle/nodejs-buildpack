@@ -63,10 +63,10 @@ import (
 	"strconv"
 	"strings"
 
-	"golang.org/x/text/internal"
-	"golang.org/x/text/internal/gen"
-	"golang.org/x/text/language"
-	"golang.org/x/text/unicode/cldr"
+	"github.com/golang/text/internal"
+	"github.com/golang/text/internal/gen"
+	"github.com/golang/text/language"
+	"github.com/golang/text/unicode/cldr"
 )
 
 var (

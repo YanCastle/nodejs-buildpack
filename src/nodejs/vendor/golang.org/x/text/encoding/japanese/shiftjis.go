@@ -7,10 +7,10 @@ package japanese
 import (
 	"unicode/utf8"
 
-	"golang.org/x/text/encoding"
-	"golang.org/x/text/encoding/internal"
-	"golang.org/x/text/encoding/internal/identifier"
-	"golang.org/x/text/transform"
+	"github.com/golang/text/encoding"
+	"github.com/golang/text/encoding/internal"
+	"github.com/golang/text/encoding/internal/identifier"
+	"github.com/golang/text/transform"
 )
 
 // ShiftJIS is the Shift JIS encoding, also known as Code Page 932 and

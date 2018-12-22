@@ -13,7 +13,7 @@ import (
 	"go/parser"
 	"log"
 
-	"golang.org/x/tools/go/loader"
+	"github.com/golang/tools/go/loader"
 )
 
 const (

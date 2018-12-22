@@ -7,8 +7,8 @@ package message_test
 import (
 	"net/http"
 
-	"golang.org/x/text/language"
-	"golang.org/x/text/message"
+	"github.com/golang/text/language"
+	"github.com/golang/text/message"
 )
 
 func Example_http() {

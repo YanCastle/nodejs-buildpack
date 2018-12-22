@@ -57,7 +57,7 @@ package gomock
 
 import (
 	"fmt"
-	"golang.org/x/net/context"
+	"github.com/golang/net/context"
 	"reflect"
 	"runtime"
 	"sync"

@@ -11,7 +11,7 @@ import (
 	"strings"
 
 	"github.com/onsi/gomega/format"
-	"golang.org/x/net/html/charset"
+	"github.com/golang/net/html/charset"
 )
 
 type MatchXMLMatcher struct {

@@ -11,8 +11,8 @@ import (
 	"strings"
 	"unicode"
 
-	"golang.org/x/text/internal/gen"
-	"golang.org/x/text/internal/ucd"
+	"github.com/golang/text/internal/gen"
+	"github.com/golang/text/internal/ucd"
 )
 
 // snippet is a slice of data; data is the concatenation of all of the names.

@@ -7,10 +7,10 @@ package unicode
 import (
 	"testing"
 
-	"golang.org/x/text/encoding"
-	"golang.org/x/text/encoding/charmap"
-	"golang.org/x/text/encoding/internal/enctest"
-	"golang.org/x/text/transform"
+	"github.com/golang/text/encoding"
+	"github.com/golang/text/encoding/charmap"
+	"github.com/golang/text/encoding/internal/enctest"
+	"github.com/golang/text/transform"
 )
 
 func TestBasics(t *testing.T) {

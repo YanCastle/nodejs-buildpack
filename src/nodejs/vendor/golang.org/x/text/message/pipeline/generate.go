@@ -12,12 +12,12 @@ import (
 	"strings"
 	"text/template"
 
-	"golang.org/x/text/collate"
-	"golang.org/x/text/feature/plural"
-	"golang.org/x/text/internal"
-	"golang.org/x/text/internal/catmsg"
-	"golang.org/x/text/internal/gen"
-	"golang.org/x/text/language"
+	"github.com/golang/text/collate"
+	"github.com/golang/text/feature/plural"
+	"github.com/golang/text/internal"
+	"github.com/golang/text/internal/catmsg"
+	"github.com/golang/text/internal/gen"
+	"github.com/golang/text/language"
 )
 
 var transRe = regexp.MustCompile(`messages\.(.*)\.json`)
@@ -216,9 +216,9 @@ var cmpNumeric = collate.New(language.Und, collate.Numeric).CompareString
 
 var lookup = template.Must(template.New("gen").Parse(`
 import (
-	"golang.org/x/text/language"
-	"golang.org/x/text/message"
-	"golang.org/x/text/message/catalog"
+	"github.com/golang/text/language"
+	"github.com/golang/text/message"
+	"github.com/golang/text/message/catalog"
 )
 
 type dictionary struct {

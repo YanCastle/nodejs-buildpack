@@ -13,8 +13,8 @@
 package plural
 
 import (
-	"golang.org/x/text/internal/number"
-	"golang.org/x/text/language"
+	"github.com/golang/text/internal/number"
+	"github.com/golang/text/language"
 )
 
 // Rules defines the plural rules for all languages for a certain plural type.

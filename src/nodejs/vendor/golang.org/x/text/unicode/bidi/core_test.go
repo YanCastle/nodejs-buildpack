@@ -12,10 +12,10 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/text/internal/gen"
-	"golang.org/x/text/internal/testtext"
-	"golang.org/x/text/internal/ucd"
-	"golang.org/x/text/unicode/norm"
+	"github.com/golang/text/internal/gen"
+	"github.com/golang/text/internal/testtext"
+	"github.com/golang/text/internal/ucd"
+	"github.com/golang/text/unicode/norm"
 )
 
 var testLevels = flag.Bool("levels", false, "enable testing of levels")

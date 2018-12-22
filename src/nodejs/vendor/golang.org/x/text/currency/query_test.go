@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/text/language"
+	"github.com/golang/text/language"
 )
 
 func TestQuery(t *testing.T) {

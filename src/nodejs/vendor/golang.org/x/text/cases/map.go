@@ -13,10 +13,10 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"golang.org/x/text/internal"
-	"golang.org/x/text/language"
-	"golang.org/x/text/transform"
-	"golang.org/x/text/unicode/norm"
+	"github.com/golang/text/internal"
+	"github.com/golang/text/language"
+	"github.com/golang/text/transform"
+	"github.com/golang/text/unicode/norm"
 )
 
 // A mapFunc takes a context set to the current rune and writes the mapped
