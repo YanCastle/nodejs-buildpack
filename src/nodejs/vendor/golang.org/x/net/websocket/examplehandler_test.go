@@ -8,7 +8,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/golang/net/websocket"
+	"golang.google.cn/x/net/websocket"
 )
 
 // Echo the data received on the WebSocket.

@@ -24,7 +24,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/golang/net/webdav"
+	"golang.google.cn/x/net/webdav"
 )
 
 var port = flag.Int("port", 9999, "server port")
@@ -71,7 +71,7 @@ func main() {
 	//
 	// On the other hand, the Go standard library's encoding/xml package
 	// accepts an empty xmlns namespace, as per the discussion at
-	// https://github.com/golang/go/issues/8068
+	// https://golang.google.cn/x/go/issues/8068
 	//
 	// Empty namespaces seem disallowed in the second (2006) edition of the XML
 	// standard, but allowed in a later edition. The grammar differs between

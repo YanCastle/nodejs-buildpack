@@ -13,12 +13,12 @@
 // layout.
 //
 // For more information, see http://unicode.org/reports/tr11/.
-package width // import "github.com/golang/text/width"
+package width // import "golang.google.cn/x/text/width"
 
 import (
 	"unicode/utf8"
 
-	"github.com/golang/text/transform"
+	"golang.google.cn/x/text/transform"
 )
 
 // TODO
@@ -184,7 +184,7 @@ func (t Transformer) String(s string) string {
 var (
 	// Fold is a transform that maps all runes to their canonical width.
 	//
-	// Note that the NFKC and NFKD transforms in github.com/golang/text/unicode/norm
+	// Note that the NFKC and NFKD transforms in golang.google.cn/x/text/unicode/norm
 	// provide a more generic folding mechanism.
 	Fold Transformer = Transformer{foldTransform{}}
 

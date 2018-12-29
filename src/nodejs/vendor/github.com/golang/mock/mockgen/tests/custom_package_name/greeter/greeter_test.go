@@ -3,8 +3,8 @@ package greeter
 import (
 	"testing"
 
-	"github.com/golang/mock/gomock"
-	"github.com/golang/mock/mockgen/tests/custom_package_name/client/v1"
+	"golang.google.cn/x/mock/gomock"
+	"golang.google.cn/x/mock/mockgen/tests/custom_package_name/client/v1"
 )
 
 func TestGreeter_Greet(t *testing.T) {

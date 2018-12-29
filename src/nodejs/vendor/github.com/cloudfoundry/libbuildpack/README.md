@@ -7,6 +7,6 @@ A library for writing buildpacks
 If you want to change mocks and thus run `go:generate` you will need
 
 ```
-go get github.com/golang/mock/gomock
-go get github.com/golang/mock/mockgen
+go get golang.google.cn/x/mock/gomock
+go get golang.google.cn/x/mock/mockgen
 ```

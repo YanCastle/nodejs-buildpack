@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package nettest provides utilities for network testing.
-package nettest // import "github.com/golang/net/internal/nettest"
+package nettest // import "golang.google.cn/x/net/internal/nettest"
 
 import (
 	"fmt"

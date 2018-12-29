@@ -6,12 +6,12 @@
 
 // Package internal contains non-exported functionality that are used by
 // packages in the text repository.
-package internal // import "github.com/golang/text/internal"
+package internal // import "golang.google.cn/x/text/internal"
 
 import (
 	"sort"
 
-	"github.com/golang/text/language"
+	"golang.google.cn/x/text/language"
 )
 
 // SortTags sorts tags in place.

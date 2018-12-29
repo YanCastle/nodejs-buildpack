@@ -535,8 +535,8 @@ type TAttr struct {
 	HTable string `xml:"http://www.w3.org/TR/html4/ table,attr"`
 	FTable string `xml:"http://www.w3schools.com/furniture table,attr"`
 	Lang   string `xml:"http://www.w3.org/XML/1998/namespace lang,attr,omitempty"`
-	Other1 string `xml:"http://github.com/golangml/ other,attr,omitempty"`
-	Other2 string `xml:"http://github.com/golangmlfoo/ other,attr,omitempty"`
+	Other1 string `xml:"http://golang.google.cn/xml/ other,attr,omitempty"`
+	Other2 string `xml:"http://golang.google.cn/xmlfoo/ other,attr,omitempty"`
 	Other3 string `xml:"http://golang.org/json/ other,attr,omitempty"`
 	Other4 string `xml:"http://golang.org/2/json/ other,attr,omitempty"`
 }
@@ -637,7 +637,7 @@ func TestMarshalNSAttr(t *testing.T) {
 	if err != nil {
 		t.Fatalf("Marshal: %v", err)
 	}
-	want := `<TableAttrs><TAttr xmlns:json_1="http://golang.org/2/json/" xmlns:json="http://golang.org/json/" xmlns:_xmlfoo="http://github.com/golangmlfoo/" xmlns:_xml="http://github.com/golangml/" xmlns:furniture="http://www.w3schools.com/furniture" xmlns:html4="http://www.w3.org/TR/html4/" html4:table="hello" furniture:table="world" xml:lang="en_US" _xml:other="other1" _xmlfoo:other="other2" json:other="other3" json_1:other="other4"></TAttr></TableAttrs>`
+	want := `<TableAttrs><TAttr xmlns:json_1="http://golang.org/2/json/" xmlns:json="http://golang.org/json/" xmlns:_xmlfoo="http://golang.google.cn/xmlfoo/" xmlns:_xml="http://golang.google.cn/xml/" xmlns:furniture="http://www.w3schools.com/furniture" xmlns:html4="http://www.w3.org/TR/html4/" html4:table="hello" furniture:table="world" xml:lang="en_US" _xml:other="other1" _xmlfoo:other="other2" json:other="other3" json_1:other="other4"></TAttr></TableAttrs>`
 	str := string(data)
 	if str != want {
 		t.Errorf("Marshal:\nhave: %#q\nwant: %#q\n", str, want)

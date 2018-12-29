@@ -19,7 +19,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/golang/net/context"
+	"golang.google.cn/x/net/context"
 )
 
 // TODO: add tests to check XML responses with the expected prefix path

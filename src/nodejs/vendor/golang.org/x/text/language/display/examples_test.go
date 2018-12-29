@@ -7,9 +7,9 @@ package display_test
 import (
 	"fmt"
 
-	"github.com/golang/text/language"
-	"github.com/golang/text/language/display"
-	"github.com/golang/text/message"
+	"golang.google.cn/x/text/language"
+	"golang.google.cn/x/text/language/display"
+	"golang.google.cn/x/text/message"
 )
 
 func ExampleFormatter() {

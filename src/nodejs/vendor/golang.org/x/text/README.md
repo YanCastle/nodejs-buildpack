@@ -23,8 +23,8 @@ moment this is supported for Go compilers from version 1.7.
 
 ## Download/Install
 
-The easiest way to install is to run `go get -u github.com/golang/text`. You can
-also manually git clone the repository to `$GOPATH/src/github.com/golang/text`.
+The easiest way to install is to run `go get -u golang.google.cn/x/text`. You can
+also manually git clone the repository to `$GOPATH/src/golang.google.cn/x/text`.
 
 ## Contribute
 To submit changes to this repository, see http://golang.org/doc/contribute.html.
@@ -32,7 +32,7 @@ To submit changes to this repository, see http://golang.org/doc/contribute.html.
 To generate the tables in this repository (except for the encoding tables),
 run go generate from this directory. By default tables are generated for the
 Unicode version in core and the CLDR version defined in
-github.com/golang/text/unicode/cldr.
+golang.google.cn/x/text/unicode/cldr.
 
 Running go generate will as a side effect create a DATA subdirectory in this
 directory, which holds all files that are used as a source for generating the
@@ -55,7 +55,7 @@ TODO:
 To generate the tables in this repository (except for the encoding
 tables), run `go generate` from this directory. By default tables are
 generated for the Unicode version in core and the CLDR version defined in
-github.com/golang/text/unicode/cldr.
+golang.google.cn/x/text/unicode/cldr.
 
 Running go generate will as a side effect create a DATA subdirectory in this
 directory which holds all files that are used as a source for generating the
@@ -89,5 +89,5 @@ This repository uses Gerrit for code changes. To learn how to submit changes to
 this repository, see https://golang.org/doc/contribute.html.
 
 The main issue tracker for the image repository is located at
-https://github.com/golang/go/issues. Prefix your issue with "x/image:" in the
+https://golang.google.cn/x/go/issues. Prefix your issue with "x/image:" in the
 subject line, so it is easy to find.

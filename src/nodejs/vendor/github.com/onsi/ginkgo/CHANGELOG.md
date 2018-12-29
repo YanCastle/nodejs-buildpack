@@ -10,7 +10,7 @@
 
 ### Fixes
 - When using custom reporters register the custom reporters *before* the default reporter.  This allows users to see the output of any print statements in their customer reporters. (#365) [8382b23]
-- When running a test and calculating the coverage using the `-coverprofile` and `-outputdir` flags, Ginkgo fails with an error if the directory does not exist. This is due to an [issue in go 1.10](https://github.com/golang/go/issues/24588) (#446) [b36a6e0]
+- When running a test and calculating the coverage using the `-coverprofile` and `-outputdir` flags, Ginkgo fails with an error if the directory does not exist. This is due to an [issue in go 1.10](https://golang.google.cn/x/go/issues/24588) (#446) [b36a6e0]
 - `unfocus` command ignores vendor folder (#459) [e5e551c, c556e43, a3b6351, 9a820dd]
 - Ignore packages whose tests are all ignored by go (#456) [7430ca7, 6d8be98]
 - Increase the threshold when checking time measuments (#455) [2f714bf, 68f622c]

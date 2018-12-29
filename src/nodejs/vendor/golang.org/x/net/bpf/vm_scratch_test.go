@@ -7,7 +7,7 @@ package bpf_test
 import (
 	"testing"
 
-	"github.com/golang/net/bpf"
+	"golang.google.cn/x/net/bpf"
 )
 
 func TestVMStoreScratchInvalidScratchRegisterTooSmall(t *testing.T) {

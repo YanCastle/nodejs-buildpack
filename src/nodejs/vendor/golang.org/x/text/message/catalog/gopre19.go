@@ -6,7 +6,7 @@
 
 package catalog
 
-import "github.com/golang/text/internal/catmsg"
+import "golang.google.cn/x/text/internal/catmsg"
 
 // A Message holds a collection of translations for the same phrase that may
 // vary based on the values of substitution arguments.

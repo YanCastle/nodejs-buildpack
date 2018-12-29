@@ -5,8 +5,8 @@
 package mock_source
 
 import (
-	gomock "github.com/golang/mock/gomock"
-	definition "github.com/golang/mock/mockgen/tests/import_source/definition"
+	gomock "golang.google.cn/x/mock/gomock"
+	definition "golang.google.cn/x/mock/mockgen/tests/import_source/definition"
 	reflect "reflect"
 )
 

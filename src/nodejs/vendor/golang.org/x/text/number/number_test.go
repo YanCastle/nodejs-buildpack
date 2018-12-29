@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/golang/text/language"
-	"github.com/golang/text/message"
+	"golang.google.cn/x/text/language"
+	"golang.google.cn/x/text/message"
 )
 
 func TestFormatter(t *testing.T) {

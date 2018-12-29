@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/golang/text/internal/catmsg"
-	"github.com/golang/text/language"
-	"github.com/golang/text/message/catalog"
+	"golang.google.cn/x/text/internal/catmsg"
+	"golang.google.cn/x/text/language"
+	"golang.google.cn/x/text/message/catalog"
 )
 
 func TestSelect(t *testing.T) {

@@ -7,7 +7,7 @@ package cldrtree
 import (
 	"reflect"
 
-	"github.com/golang/text/unicode/cldr"
+	"golang.google.cn/x/text/unicode/cldr"
 )
 
 // An Option configures an Index.

@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"unicode/utf8"
 
-	"github.com/golang/text/internal/format"
+	"golang.google.cn/x/text/internal/format"
 )
 
 const (

@@ -11,8 +11,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/golang/sys/windows/svc/eventlog"
-	"github.com/golang/sys/windows/svc/mgr"
+	"golang.google.cn/x/sys/windows/svc/eventlog"
+	"golang.google.cn/x/sys/windows/svc/mgr"
 )
 
 func exePath() (string, error) {

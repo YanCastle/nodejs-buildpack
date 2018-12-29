@@ -60,7 +60,7 @@ The /debug/events HTTP endpoint organizes the event logs by family and
 by time since the last error.  The expanded view displays recent log
 entries and the log's call stack.
 */
-package trace // import "github.com/golang/net/trace"
+package trace // import "golang.google.cn/x/net/trace"
 
 import (
 	"bytes"
@@ -78,7 +78,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/golang/net/internal/timeseries"
+	"golang.google.cn/x/net/internal/timeseries"
 )
 
 // DebugUseAfterFinish controls whether to debug uses of Trace values after finishing.
@@ -114,8 +114,8 @@ func init() {
 	_, pat := http.DefaultServeMux.Handler(&http.Request{URL: &url.URL{Path: "/debug/requests"}})
 	if pat != "" {
 		panic("/debug/requests is already registered. You may have two independent copies of " +
-			"github.com/golang/net/trace in your binary, trying to maintain separate state. This may " +
-			"involve a vendored copy of github.com/golang/net/trace.")
+			"golang.google.cn/x/net/trace in your binary, trying to maintain separate state. This may " +
+			"involve a vendored copy of golang.google.cn/x/net/trace.")
 	}
 
 	// TODO(jbd): Serve Traces from /debug/traces in the future?
@@ -292,7 +292,7 @@ func lookupBucket(fam string, b int) *traceBucket {
 
 type contextKeyT string
 
-var contextKey = contextKeyT("github.com/golang/net/trace.Trace")
+var contextKey = contextKeyT("golang.google.cn/x/net/trace.Trace")
 
 // Trace represents an active request.
 type Trace interface {

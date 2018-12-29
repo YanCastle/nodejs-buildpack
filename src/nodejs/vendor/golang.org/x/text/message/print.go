@@ -12,10 +12,10 @@ import (
 	"sync"
 	"unicode/utf8"
 
-	"github.com/golang/text/internal/format"
-	"github.com/golang/text/internal/number"
-	"github.com/golang/text/language"
-	"github.com/golang/text/message/catalog"
+	"golang.google.cn/x/text/internal/format"
+	"golang.google.cn/x/text/internal/number"
+	"golang.google.cn/x/text/language"
+	"golang.google.cn/x/text/message/catalog"
 )
 
 // Strings for use with buffer.WriteString.
@@ -64,7 +64,7 @@ func (p *printer) free() {
 }
 
 // printer is used to store a printer's state.
-// It implements "github.com/golang/text/internal/format".State.
+// It implements "golang.google.cn/x/text/internal/format".State.
 type printer struct {
 	Printer
 
@@ -88,7 +88,7 @@ type printer struct {
 	erroring bool
 }
 
-// Language implements "github.com/golang/text/internal/format".State.
+// Language implements "golang.google.cn/x/text/internal/format".State.
 func (p *printer) Language() language.Tag { return p.tag }
 
 func (p *printer) Width() (wid int, ok bool) { return p.fmt.Width, p.fmt.WidthPresent }

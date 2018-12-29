@@ -7,7 +7,7 @@ package build
 import (
 	"testing"
 
-	"github.com/golang/text/internal/colltab"
+	"golang.google.cn/x/text/internal/colltab"
 )
 
 type ceTest struct {

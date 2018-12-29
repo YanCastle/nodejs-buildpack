@@ -7,10 +7,10 @@ package main
 import (
 	"os"
 
-	"github.com/golang/text/message/pipeline"
+	"golang.google.cn/x/text/message/pipeline"
 )
 
-const printerType = "github.com/golang/text/message.Printer"
+const printerType = "golang.google.cn/x/text/message.Printer"
 
 // TODO:
 // - merge information into existing files

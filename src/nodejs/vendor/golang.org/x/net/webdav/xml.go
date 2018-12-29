@@ -19,7 +19,7 @@ import (
 	// in July 2015, this package uses an internal fork of the standard
 	// library's encoding/xml package, due to changes in the way namespaces
 	// were encoded. Such changes were introduced in the Go 1.5 cycle, but were
-	// rolled back in response to https://github.com/golang/go/issues/11841
+	// rolled back in response to https://golang.google.cn/x/go/issues/11841
 	//
 	// However, this package's exported API, specifically the Property and
 	// DeadPropsHolder types, need to refer to the standard library's version
@@ -31,8 +31,8 @@ import (
 	//
 	// In the long term, this package should use the standard library's version
 	// only, and the internal fork deleted, once
-	// https://github.com/golang/go/issues/13400 is resolved.
-	ixml "github.com/golang/net/webdav/internal/xml"
+	// https://golang.google.cn/x/go/issues/13400 is resolved.
+	ixml "golang.google.cn/x/net/webdav/internal/xml"
 )
 
 // http://www.webdav.org/specs/rfc4918.html#ELEMENT_lockinfo

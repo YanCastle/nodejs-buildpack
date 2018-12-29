@@ -19,7 +19,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/golang/net/idna"
+	"golang.google.cn/x/net/idna"
 )
 
 // Config holds configuration for HTTP proxy settings. See

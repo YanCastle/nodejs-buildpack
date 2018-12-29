@@ -10,9 +10,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/golang/text/internal"
-	"github.com/golang/text/language"
-	"github.com/golang/text/message/pipeline"
+	"golang.google.cn/x/text/internal"
+	"golang.google.cn/x/text/language"
+	"golang.google.cn/x/text/message/pipeline"
 )
 
 // TODO:

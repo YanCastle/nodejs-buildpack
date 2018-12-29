@@ -16,7 +16,7 @@
                     "expr": "r.Header.Get(\"From\")"
                 }
             ],
-            "position": "github.com/golang/text/cmd/gotext/examples/extract_http/pkg/pkg.go:22:11"
+            "position": "golang.google.cn/x/text/cmd/gotext/examples/extract_http/pkg/pkg.go:22:11"
         },
         {
             "id": "Do you like your browser ({User_Agent})?\n",
@@ -33,7 +33,7 @@
                     "expr": "r.Header.Get(\"User-Agent\")"
                 }
             ],
-            "position": "github.com/golang/text/cmd/gotext/examples/extract_http/pkg/pkg.go:24:11"
+            "position": "golang.google.cn/x/text/cmd/gotext/examples/extract_http/pkg/pkg.go:24:11"
         }
     ]
 }

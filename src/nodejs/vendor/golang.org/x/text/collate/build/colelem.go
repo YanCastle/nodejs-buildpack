@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"unicode"
 
-	"github.com/golang/text/internal/colltab"
+	"golang.google.cn/x/text/internal/colltab"
 )
 
 const (

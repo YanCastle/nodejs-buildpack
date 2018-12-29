@@ -12,10 +12,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/golang/net/icmp"
-	"github.com/golang/net/internal/iana"
-	"github.com/golang/net/internal/nettest"
-	"github.com/golang/net/ipv6"
+	"golang.google.cn/x/net/icmp"
+	"golang.google.cn/x/net/internal/iana"
+	"golang.google.cn/x/net/internal/nettest"
+	"golang.google.cn/x/net/ipv6"
 )
 
 func TestPacketConnReadWriteUnicastUDP(t *testing.T) {

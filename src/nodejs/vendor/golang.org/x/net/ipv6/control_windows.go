@@ -7,7 +7,7 @@ package ipv6
 import (
 	"syscall"
 
-	"github.com/golang/net/internal/socket"
+	"golang.google.cn/x/net/internal/socket"
 )
 
 func setControlMessage(c *socket.Conn, opt *rawOpt, cf ControlFlags, on bool) error {

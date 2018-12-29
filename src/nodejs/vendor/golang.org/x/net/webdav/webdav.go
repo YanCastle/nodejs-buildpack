@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package webdav provides a WebDAV server implementation.
-package webdav // import "github.com/golang/net/webdav"
+package webdav // import "golang.google.cn/x/net/webdav"
 
 import (
 	"errors"

@@ -15,7 +15,7 @@ package htmlindex
 // in all encodings unconditionally.
 //
 // This issue can be solved by either solving the linking issue (see
-// https://github.com/golang/go/issues/6330) or refactoring the encoding tables
+// https://golang.google.cn/x/go/issues/6330) or refactoring the encoding tables
 // (e.g. moving the tables to internal packages that do not use global
 // variables).
 
@@ -26,9 +26,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/golang/text/encoding"
-	"github.com/golang/text/encoding/internal/identifier"
-	"github.com/golang/text/language"
+	"golang.google.cn/x/text/encoding"
+	"golang.google.cn/x/text/encoding/internal/identifier"
+	"golang.google.cn/x/text/language"
 )
 
 var (

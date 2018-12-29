@@ -10,7 +10,7 @@ import (
 	"net"
 	"unsafe"
 
-	"github.com/golang/net/internal/socket"
+	"golang.google.cn/x/net/internal/socket"
 )
 
 var freebsd32o64 bool

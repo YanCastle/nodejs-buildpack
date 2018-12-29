@@ -18,8 +18,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	fmtparser "github.com/golang/text/internal/format"
-	"github.com/golang/tools/go/loader"
+	fmtparser "golang.google.cn/x/text/internal/format"
+	"golang.google.cn/x/tools/go/loader"
 )
 
 // TODO:
@@ -76,7 +76,7 @@ func Extract(c *Config) (*Locale, error) {
 				}
 				// TODO: remove cheap hack and check if the type either
 				// implements some interface or is specifically of type
-				// "github.com/golang/text/message".Printer.
+				// "golang.google.cn/x/text/message".Printer.
 				m, ok := extractFuncs[path.Base(meth.Recv().String())]
 				if !ok {
 					return true
@@ -204,10 +204,10 @@ func posString(conf loader.Config, info *loader.PackageInfo, pos token.Pos) stri
 
 // extractFuncs indicates the types and methods for which to extract strings,
 // and which argument to extract.
-// TODO: use the types in conf.Import("github.com/golang/text/message") to extract
+// TODO: use the types in conf.Import("golang.google.cn/x/text/message") to extract
 // the correct instances.
 var extractFuncs = map[string]map[string]extractType{
-	// TODO: Printer -> *github.com/golang/text/message.Printer
+	// TODO: Printer -> *golang.google.cn/x/text/message.Printer
 	"message.Printer": {
 		"Printf":  extractType{arg: 0, format: true},
 		"Sprintf": extractType{arg: 0, format: true},

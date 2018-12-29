@@ -3,7 +3,7 @@ package cldr_test
 import (
 	"fmt"
 
-	"github.com/golang/text/unicode/cldr"
+	"golang.google.cn/x/text/unicode/cldr"
 )
 
 func ExampleSlice() {

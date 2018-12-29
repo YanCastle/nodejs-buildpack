@@ -12,7 +12,7 @@ package main
 import (
 	"log"
 
-	"github.com/golang/text/internal/ucd"
+	"golang.google.cn/x/text/internal/ucd"
 )
 
 func catFromEntry(p *ucd.Parser) (cat category) {

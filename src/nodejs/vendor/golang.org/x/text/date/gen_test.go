@@ -9,11 +9,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/golang/text/internal/cldrtree"
-	"github.com/golang/text/internal/gen"
-	"github.com/golang/text/internal/testtext"
-	"github.com/golang/text/language"
-	"github.com/golang/text/unicode/cldr"
+	"golang.google.cn/x/text/internal/cldrtree"
+	"golang.google.cn/x/text/internal/gen"
+	"golang.google.cn/x/text/internal/testtext"
+	"golang.google.cn/x/text/language"
+	"golang.google.cn/x/text/unicode/cldr"
 )
 
 func TestTables(t *testing.T) {

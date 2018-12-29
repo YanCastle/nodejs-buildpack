@@ -10,7 +10,7 @@ package ipv6
 import (
 	"net"
 
-	"github.com/golang/net/internal/socket"
+	"golang.google.cn/x/net/internal/socket"
 )
 
 func (c *payloadHandler) readFrom(b []byte) (int, *ControlMessage, net.Addr, error) {

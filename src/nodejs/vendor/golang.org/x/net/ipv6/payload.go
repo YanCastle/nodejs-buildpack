@@ -7,7 +7,7 @@ package ipv6
 import (
 	"net"
 
-	"github.com/golang/net/internal/socket"
+	"golang.google.cn/x/net/internal/socket"
 )
 
 // BUG(mikio): On Windows, the ControlMessage for ReadFrom and WriteTo

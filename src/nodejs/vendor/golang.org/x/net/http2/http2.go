@@ -14,7 +14,7 @@
 //
 // See https://http2.golang.org/ for a test server running this code.
 //
-package http2 // import "github.com/golang/net/http2"
+package http2 // import "golang.google.cn/x/net/http2"
 
 import (
 	"bufio"
@@ -29,7 +29,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/golang/net/http/httpguts"
+	"golang.google.cn/x/net/http/httpguts"
 )
 
 var (

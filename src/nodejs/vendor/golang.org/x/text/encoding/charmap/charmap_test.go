@@ -7,10 +7,10 @@ package charmap
 import (
 	"testing"
 
-	"github.com/golang/text/encoding"
-	"github.com/golang/text/encoding/internal"
-	"github.com/golang/text/encoding/internal/enctest"
-	"github.com/golang/text/transform"
+	"golang.google.cn/x/text/encoding"
+	"golang.google.cn/x/text/encoding/internal"
+	"golang.google.cn/x/text/encoding/internal/enctest"
+	"golang.google.cn/x/text/transform"
 )
 
 func dec(e encoding.Encoding) (dir string, t transform.Transformer, err error) {

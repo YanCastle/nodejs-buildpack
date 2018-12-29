@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-package main // import "github.com/golang/text/collate/tools/colcmp"
+package main // import "golang.google.cn/x/text/collate/tools/colcmp"
 
 import (
 	"bytes"
@@ -18,7 +18,7 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/golang/text/unicode/norm"
+	"golang.google.cn/x/text/unicode/norm"
 )
 
 var (

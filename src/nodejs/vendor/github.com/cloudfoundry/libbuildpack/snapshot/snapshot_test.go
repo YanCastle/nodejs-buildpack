@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/cloudfoundry/libbuildpack/snapshot"
-	gomock "github.com/golang/mock/gomock"
+	gomock "golang.google.cn/x/mock/gomock"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

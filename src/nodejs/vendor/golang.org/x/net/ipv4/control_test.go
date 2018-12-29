@@ -7,7 +7,7 @@ package ipv4_test
 import (
 	"testing"
 
-	"github.com/golang/net/ipv4"
+	"golang.google.cn/x/net/ipv4"
 )
 
 func TestControlMessageParseWithFuzz(t *testing.T) {

@@ -9,11 +9,11 @@ import (
 	"testing"
 	"unicode"
 
-	"github.com/golang/text/internal/testtext"
-	"github.com/golang/text/language"
-	"github.com/golang/text/transform"
-	"github.com/golang/text/unicode/norm"
-	"github.com/golang/text/unicode/rangetable"
+	"golang.google.cn/x/text/internal/testtext"
+	"golang.google.cn/x/text/language"
+	"golang.google.cn/x/text/transform"
+	"golang.google.cn/x/text/unicode/norm"
+	"golang.google.cn/x/text/unicode/rangetable"
 )
 
 // The following definitions are taken directly from Chapter 3 of The Unicode

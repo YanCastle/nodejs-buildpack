@@ -93,7 +93,7 @@
 
 [[projects]]
   branch = "master"
-  name = "github.com/golang/net"
+  name = "golang.google.cn/x/net"
   packages = [
     "html",
     "html/atom",
@@ -103,12 +103,12 @@
 
 [[projects]]
   branch = "master"
-  name = "github.com/golang/sys"
+  name = "golang.google.cn/x/sys"
   packages = ["unix"]
   revision = "c1138c84af3a9927aee1a1b8b7ce06c9b7ea52bc"
 
 [[projects]]
-  name = "github.com/golang/text"
+  name = "golang.google.cn/x/text"
   packages = [
     "encoding",
     "encoding/charmap",

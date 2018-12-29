@@ -12,7 +12,7 @@ package internal
 // the cldr package.
 
 import (
-	"github.com/golang/text/language"
+	"golang.google.cn/x/text/language"
 )
 
 // TODO: consider if (some of the) matching algorithm needs to be public after

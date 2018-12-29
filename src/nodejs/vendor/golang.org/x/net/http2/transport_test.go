@@ -31,8 +31,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/golang/net/context"
-	"github.com/golang/net/http2/hpack"
+	"golang.google.cn/x/net/context"
+	"golang.google.cn/x/net/http2/hpack"
 )
 
 var (
@@ -1631,7 +1631,7 @@ func TestTransportChecksRequestHeaderListSize(t *testing.T) {
 	}
 	// Create a new Request for each test, rather than reusing the
 	// same Request, to avoid a race when modifying req.Headers.
-	// See https://github.com/golang/go/issues/21316
+	// See https://golang.google.cn/x/go/issues/21316
 	newRequest := func() *http.Request {
 		// Body must be non-nil to enable writing trailers.
 		body := strings.NewReader("hello")

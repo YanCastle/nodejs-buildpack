@@ -270,7 +270,7 @@ import (
 )
 EOF
 
-print "import \"github.com/golang/sys/unix\"\n" if $package ne "unix";
+print "import \"golang.google.cn/x/sys/unix\"\n" if $package ne "unix";
 
 my $vardecls = "\t" . join(",\n\t", @vars);
 $vardecls .= " syscallFunc";

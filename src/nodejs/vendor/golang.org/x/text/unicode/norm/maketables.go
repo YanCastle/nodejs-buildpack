@@ -20,9 +20,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/golang/text/internal/gen"
-	"github.com/golang/text/internal/triegen"
-	"github.com/golang/text/internal/ucd"
+	"golang.google.cn/x/text/internal/gen"
+	"golang.google.cn/x/text/internal/triegen"
+	"golang.google.cn/x/text/internal/ucd"
 )
 
 func main() {

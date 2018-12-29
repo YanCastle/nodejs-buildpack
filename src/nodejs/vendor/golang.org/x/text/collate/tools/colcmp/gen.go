@@ -12,8 +12,8 @@ import (
 	"unicode/utf16"
 	"unicode/utf8"
 
-	"github.com/golang/text/language"
-	"github.com/golang/text/unicode/norm"
+	"golang.google.cn/x/text/language"
+	"golang.google.cn/x/text/unicode/norm"
 )
 
 // TODO: replace with functionality in language package.

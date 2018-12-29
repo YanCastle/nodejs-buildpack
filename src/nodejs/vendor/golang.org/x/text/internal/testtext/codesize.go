@@ -17,7 +17,7 @@ import (
 // CodeSize builds the given code sample and returns the binary size or en error
 // if an error occurred. The code sample typically will look like this:
 //     package main
-//     import "github.com/golang/text/somepackage"
+//     import "golang.google.cn/x/text/somepackage"
 //     func main() {
 //         somepackage.Func() // reference Func to cause it to be linked in.
 //     }

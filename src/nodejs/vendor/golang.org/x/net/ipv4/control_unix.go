@@ -9,8 +9,8 @@ package ipv4
 import (
 	"unsafe"
 
-	"github.com/golang/net/internal/iana"
-	"github.com/golang/net/internal/socket"
+	"golang.google.cn/x/net/internal/iana"
+	"golang.google.cn/x/net/internal/socket"
 )
 
 func setControlMessage(c *socket.Conn, opt *rawOpt, cf ControlFlags, on bool) error {

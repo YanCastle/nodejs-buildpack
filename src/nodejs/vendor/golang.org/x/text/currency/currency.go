@@ -8,14 +8,14 @@
 //
 // NOTE: the formatting functionality is currently under development and may
 // change without notice.
-package currency // import "github.com/golang/text/currency"
+package currency // import "golang.google.cn/x/text/currency"
 
 import (
 	"errors"
 	"sort"
 
-	"github.com/golang/text/internal/tag"
-	"github.com/golang/text/language"
+	"golang.google.cn/x/text/internal/tag"
+	"golang.google.cn/x/text/language"
 )
 
 // TODO:

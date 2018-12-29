@@ -9,6 +9,6 @@
 //
 // BE ADVISED: This package is under construction and the API may change in
 // backwards incompatible ways and without notice.
-package precis // import "github.com/golang/text/secure/precis"
+package precis // import "golang.google.cn/x/text/secure/precis"
 
 //go:generate go run gen.go gen_trieval.go

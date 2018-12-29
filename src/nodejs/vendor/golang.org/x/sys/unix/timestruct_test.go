@@ -11,7 +11,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/golang/sys/unix"
+	"golang.google.cn/x/sys/unix"
 )
 
 func TestTimeToTimespec(t *testing.T) {

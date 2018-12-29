@@ -3,10 +3,10 @@ package concurrent
 import (
 	"testing"
 
-	"github.com/golang/mock/gomock"
-	"github.com/golang/net/context"
+	"golang.google.cn/x/mock/gomock"
+	"golang.google.cn/x/net/context"
 
-	mock "github.com/golang/mock/sample/concurrent/mock"
+	mock "golang.google.cn/x/mock/sample/concurrent/mock"
 )
 
 func call(ctx context.Context, m Math) (int, error) {

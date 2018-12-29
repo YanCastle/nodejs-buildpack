@@ -36,7 +36,7 @@
 //
 // See http://blog.golang.org/context for example code for a server that uses
 // Contexts.
-package context // import "github.com/golang/net/context"
+package context // import "golang.google.cn/x/net/context"
 
 // Background returns a non-nil, empty Context. It is never canceled, has no
 // values, and has no deadline. It is typically used by the main function,

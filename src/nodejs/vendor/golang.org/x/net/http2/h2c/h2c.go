@@ -5,7 +5,7 @@
 // Package h2c implements the unencrypted "h2c" form of HTTP/2.
 //
 // The h2c protocol is the non-TLS version of HTTP/2 which is not available from
-// net/http or github.com/golang/net/http2.
+// net/http or golang.google.cn/x/net/http2.
 package h2c
 
 import (
@@ -23,9 +23,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/golang/net/http/httpguts"
-	"github.com/golang/net/http2"
-	"github.com/golang/net/http2/hpack"
+	"golang.google.cn/x/net/http/httpguts"
+	"golang.google.cn/x/net/http2"
+	"golang.google.cn/x/net/http2/hpack"
 )
 
 var (

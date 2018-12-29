@@ -9,7 +9,7 @@ import (
 	"net/url"
 	"reflect"
 
-	"github.com/golang/protobuf/proto"
+	"golang.google.cn/x/protobuf/proto"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/types"
 )

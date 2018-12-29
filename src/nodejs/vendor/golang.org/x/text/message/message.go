@@ -2,18 +2,18 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-package message // import "github.com/golang/text/message"
+package message // import "golang.google.cn/x/text/message"
 
 import (
 	"io"
 	"os"
 
 	// Include features to facilitate generated catalogs.
-	_ "github.com/golang/text/feature/plural"
+	_ "golang.google.cn/x/text/feature/plural"
 
-	"github.com/golang/text/internal/number"
-	"github.com/golang/text/language"
-	"github.com/golang/text/message/catalog"
+	"golang.google.cn/x/text/internal/number"
+	"golang.google.cn/x/text/language"
+	"golang.google.cn/x/text/message/catalog"
 )
 
 // A Printer implements language-specific formatted I/O analogous to the fmt

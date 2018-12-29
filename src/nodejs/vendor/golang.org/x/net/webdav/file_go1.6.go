@@ -9,7 +9,7 @@ package webdav
 import (
 	"net/http"
 
-	"github.com/golang/net/context"
+	"golang.google.cn/x/net/context"
 )
 
 func getContext(r *http.Request) context.Context {

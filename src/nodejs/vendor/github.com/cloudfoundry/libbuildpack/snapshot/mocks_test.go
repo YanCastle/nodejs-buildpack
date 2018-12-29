@@ -4,7 +4,7 @@
 package snapshot_test
 
 import (
-	gomock "github.com/golang/mock/gomock"
+	gomock "golang.google.cn/x/mock/gomock"
 	reflect "reflect"
 )
 

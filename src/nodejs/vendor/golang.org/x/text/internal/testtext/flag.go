@@ -8,7 +8,7 @@ import (
 	"flag"
 	"testing"
 
-	"github.com/golang/text/internal/gen"
+	"golang.google.cn/x/text/internal/gen"
 )
 
 var long = flag.Bool("long", false,

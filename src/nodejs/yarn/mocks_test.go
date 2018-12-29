@@ -5,7 +5,7 @@
 package yarn_test
 
 import (
-	gomock "github.com/golang/mock/gomock"
+	gomock "golang.google.cn/x/mock/gomock"
 	io "io"
 	exec "os/exec"
 	reflect "reflect"

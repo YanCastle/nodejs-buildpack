@@ -8,7 +8,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/golang/text/language"
+	"golang.google.cn/x/text/language"
 )
 
 // QueryIter represents a set of Units. The default set includes all Units that

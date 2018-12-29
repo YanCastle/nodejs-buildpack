@@ -10,8 +10,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/golang/net/internal/nettest"
-	"github.com/golang/net/ipv6"
+	"golang.google.cn/x/net/internal/nettest"
+	"golang.google.cn/x/net/ipv6"
 )
 
 var icmpStringTests = []struct {

@@ -9,7 +9,7 @@ import (
 	"go/build"
 	"go/parser"
 
-	"github.com/golang/tools/go/loader"
+	"golang.google.cn/x/tools/go/loader"
 )
 
 const (

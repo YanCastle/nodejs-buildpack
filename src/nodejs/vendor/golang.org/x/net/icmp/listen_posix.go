@@ -12,9 +12,9 @@ import (
 	"runtime"
 	"syscall"
 
-	"github.com/golang/net/internal/iana"
-	"github.com/golang/net/ipv4"
-	"github.com/golang/net/ipv6"
+	"golang.google.cn/x/net/internal/iana"
+	"golang.google.cn/x/net/ipv4"
+	"golang.google.cn/x/net/ipv6"
 )
 
 const sysIP_STRIPHDR = 0x17 // for now only darwin supports this option

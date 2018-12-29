@@ -8,7 +8,7 @@ go:
 
 script:
   - go build ./...
-  - go install github.com/golang/mock/mockgen
+  - go install golang.google.cn/x/mock/mockgen
   - ./ci/check_go_fmt.sh
   - ./ci/check_go_generate.sh
   - go test -v ./...

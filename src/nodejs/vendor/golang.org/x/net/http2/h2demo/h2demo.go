@@ -30,9 +30,9 @@ import (
 
 	"cloud.google.com/go/storage"
 	"go4.org/syncutil/singleflight"
-	"github.com/golang/build/autocertcache"
-	"github.com/golang/crypto/acme/autocert"
-	"github.com/golang/net/http2"
+	"golang.google.cn/x/build/autocertcache"
+	"golang.google.cn/x/crypto/acme/autocert"
+	"golang.google.cn/x/net/http2"
 )
 
 var (
@@ -55,7 +55,7 @@ func homeOldHTTP(w http.ResponseWriter, r *http.Request) {
    <li>Use Firefox Nightly or go to <b>about:config</b> and enable "network.http.spdy.enabled.http2draft"</li>
    <li>Use Google Chrome Canary and/or go to <b>chrome://flags/#enable-spdy4</b> to <i>Enable SPDY/4</i> (Chrome's name for HTTP/2)</li>
 </ul>
-<p>See code & instructions for connecting at <a href="https://github.com/golang/net/tree/master/http2">https://github.com/golang/net/tree/master/http2</a>.</p>
+<p>See code & instructions for connecting at <a href="https://golang.google.cn/x/net/tree/master/http2">https://golang.google.cn/x/net/tree/master/http2</a>.</p>
 
 </body></html>`)
 }
@@ -77,7 +77,7 @@ href="https://http2.github.io/">HTTP/2</a> demo & interop server.</p>
 <p>This server exists for others in the HTTP/2 community to test their HTTP/2 client implementations and point out flaws in our server.</p>
 
 <p>
-The code is at <a href="https://github.com/golang/net/http2">github.com/golang/net/http2</a> and
+The code is at <a href="https://golang.google.cn/x/net/http2">golang.google.cn/x/net/http2</a> and
 is used transparently by the Go standard library from Go 1.6 and later.
 </p>
 

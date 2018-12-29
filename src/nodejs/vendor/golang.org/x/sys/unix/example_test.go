@@ -10,7 +10,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/golang/sys/unix"
+	"golang.google.cn/x/sys/unix"
 )
 
 func ExampleExec() {

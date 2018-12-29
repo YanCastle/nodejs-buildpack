@@ -22,10 +22,10 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/golang/text/internal/gen"
-	"github.com/golang/text/internal/triegen"
-	"github.com/golang/text/internal/ucd"
-	"github.com/golang/text/unicode/norm"
+	"golang.google.cn/x/text/internal/gen"
+	"golang.google.cn/x/text/internal/triegen"
+	"golang.google.cn/x/text/internal/ucd"
+	"golang.google.cn/x/text/unicode/norm"
 )
 
 func main() {

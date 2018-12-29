@@ -15,7 +15,7 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/golang/text/internal/testtext"
+	"golang.google.cn/x/text/internal/testtext"
 )
 
 type lowerCaseASCII struct{ NopResetter }

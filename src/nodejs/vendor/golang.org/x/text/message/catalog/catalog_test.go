@@ -11,8 +11,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/golang/text/internal/catmsg"
-	"github.com/golang/text/language"
+	"golang.google.cn/x/text/internal/catmsg"
+	"golang.google.cn/x/text/language"
 )
 
 type entry struct {

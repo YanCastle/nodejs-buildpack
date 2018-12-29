@@ -9,7 +9,7 @@ package main
 import (
 	"time"
 
-	"github.com/golang/text/language"
+	"golang.google.cn/x/text/language"
 )
 
 // This file contains code common to gen.go and the package code.

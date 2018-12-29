@@ -7,8 +7,8 @@ package pkg
 import (
 	"net/http"
 
-	"github.com/golang/text/language"
-	"github.com/golang/text/message"
+	"golang.google.cn/x/text/language"
+	"golang.google.cn/x/text/message"
 )
 
 var matcher = language.NewMatcher(message.DefaultCatalog.Languages())

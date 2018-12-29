@@ -18,7 +18,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/golang/net/html/atom"
+	"golang.google.cn/x/net/html/atom"
 )
 
 // readParseTest reads a single test case from r.

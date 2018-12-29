@@ -764,7 +764,7 @@ The default output shows the package import path:
 <pre>bytes
 encoding/json
 github.com/gorilla/mux
-github.com/golang/net/html
+golang.google.cn/x/net/html
 </pre>
 <p>
 The -f flag specifies an alternate format for the list, using the

@@ -6,7 +6,7 @@ package mock_vendor_dep
 
 import (
 	a "a"
-	gomock "github.com/golang/mock/gomock"
+	gomock "golang.google.cn/x/mock/gomock"
 	reflect "reflect"
 )
 

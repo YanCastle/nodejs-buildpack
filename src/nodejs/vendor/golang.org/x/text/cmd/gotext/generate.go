@@ -13,8 +13,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/golang/text/message/pipeline"
-	"github.com/golang/tools/go/loader"
+	"golang.google.cn/x/text/message/pipeline"
+	"golang.google.cn/x/tools/go/loader"
 )
 
 func init() {

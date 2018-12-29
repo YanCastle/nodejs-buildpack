@@ -68,7 +68,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/golang/text/language"
+	"golang.google.cn/x/text/language"
 )
 
 // A Handle refers to a registered message type.
@@ -107,7 +107,7 @@ const (
 	numFixed
 )
 
-const prefix = "github.com/golang/text/internal/catmsg."
+const prefix = "golang.google.cn/x/text/internal/catmsg."
 
 var (
 	mutex sync.Mutex

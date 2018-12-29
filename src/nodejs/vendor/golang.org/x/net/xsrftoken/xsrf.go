@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package xsrftoken provides methods for generating and validating secure XSRF tokens.
-package xsrftoken // import "github.com/golang/net/xsrftoken"
+package xsrftoken // import "golang.google.cn/x/net/xsrftoken"
 
 import (
 	"crypto/hmac"

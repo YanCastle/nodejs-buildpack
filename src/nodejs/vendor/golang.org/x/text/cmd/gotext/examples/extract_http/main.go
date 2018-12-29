@@ -9,7 +9,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/golang/text/cmd/gotext/examples/extract_http/pkg"
+	"golang.google.cn/x/text/cmd/gotext/examples/extract_http/pkg"
 )
 
 func main() {

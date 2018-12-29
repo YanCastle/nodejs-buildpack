@@ -35,9 +35,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/golang/crypto/ssh/terminal"
-	"github.com/golang/net/http2"
-	"github.com/golang/net/http2/hpack"
+	"golang.google.cn/x/crypto/ssh/terminal"
+	"golang.google.cn/x/net/http2"
+	"golang.google.cn/x/net/http2/hpack"
 )
 
 // Flags

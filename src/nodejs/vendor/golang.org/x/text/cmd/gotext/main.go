@@ -25,8 +25,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/golang/text/language"
-	"github.com/golang/tools/go/buildutil"
+	"golang.google.cn/x/text/language"
+	"golang.google.cn/x/tools/go/buildutil"
 )
 
 func init() {

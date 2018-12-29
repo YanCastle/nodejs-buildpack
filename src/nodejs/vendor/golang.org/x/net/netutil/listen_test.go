@@ -16,7 +16,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/golang/net/internal/nettest"
+	"golang.google.cn/x/net/internal/nettest"
 )
 
 func TestLimitListener(t *testing.T) {

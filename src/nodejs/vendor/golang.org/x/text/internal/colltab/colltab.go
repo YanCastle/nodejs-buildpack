@@ -4,12 +4,12 @@
 
 // Package colltab contains functionality related to collation tables.
 // It is only to be used by the collate and search packages.
-package colltab // import "github.com/golang/text/internal/colltab"
+package colltab // import "golang.google.cn/x/text/internal/colltab"
 
 import (
 	"sort"
 
-	"github.com/golang/text/language"
+	"golang.google.cn/x/text/language"
 )
 
 // MatchLang finds the index of t in tags, using a matching algorithm used for

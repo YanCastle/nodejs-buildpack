@@ -7,9 +7,9 @@ package collate
 import (
 	"sort"
 
-	"github.com/golang/text/internal/colltab"
-	"github.com/golang/text/language"
-	"github.com/golang/text/unicode/norm"
+	"golang.google.cn/x/text/internal/colltab"
+	"golang.google.cn/x/text/language"
+	"golang.google.cn/x/text/unicode/norm"
 )
 
 // newCollator creates a new collator with default options configured.

@@ -13,4 +13,4 @@ interface that can be mocked with GoMock. The interesting files are:
 
 To run the test,
 
-    go test github.com/golang/mock/sample
+    go test golang.google.cn/x/mock/sample

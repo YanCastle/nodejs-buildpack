@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/golang/text/language"
+	"golang.google.cn/x/text/language"
 )
 
 func TestCompile(t *testing.T) {

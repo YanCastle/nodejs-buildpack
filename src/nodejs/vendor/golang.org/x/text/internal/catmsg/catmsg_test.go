@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/golang/text/language"
+	"golang.google.cn/x/text/language"
 )
 
 type renderer struct {
@@ -260,7 +260,7 @@ type empty struct{}
 func (empty) Compile(e *Encoder) (err error) { return nil }
 
 var msgIncomplete = Register(
-	"github.com/golang/text/internal/catmsg.incomplete",
+	"golang.google.cn/x/text/internal/catmsg.incomplete",
 	func(d *Decoder) bool { return false })
 
 type incomplete struct{}
@@ -271,7 +271,7 @@ func (incomplete) Compile(e *Encoder) (err error) {
 }
 
 var msgNested = Register(
-	"github.com/golang/text/internal/catmsg.nested",
+	"golang.google.cn/x/text/internal/catmsg.nested",
 	func(d *Decoder) bool {
 		d.Render(d.DecodeString())
 		d.ExecuteMessage()

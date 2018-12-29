@@ -4,7 +4,7 @@ import (
 	"errors"
 
 	bp "github.com/cloudfoundry/libbuildpack"
-	"github.com/golang/mock/gomock"
+	"golang.google.cn/x/mock/gomock"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

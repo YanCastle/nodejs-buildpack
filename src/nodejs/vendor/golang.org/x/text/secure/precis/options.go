@@ -5,11 +5,11 @@
 package precis
 
 import (
-	"github.com/golang/text/cases"
-	"github.com/golang/text/language"
-	"github.com/golang/text/runes"
-	"github.com/golang/text/transform"
-	"github.com/golang/text/unicode/norm"
+	"golang.google.cn/x/text/cases"
+	"golang.google.cn/x/text/language"
+	"golang.google.cn/x/text/runes"
+	"golang.google.cn/x/text/transform"
+	"golang.google.cn/x/text/unicode/norm"
 )
 
 // An Option is used to define the behavior and rules of a Profile.

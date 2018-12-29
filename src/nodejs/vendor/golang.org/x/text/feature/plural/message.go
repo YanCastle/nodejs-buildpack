@@ -10,10 +10,10 @@ import (
 	"reflect"
 	"strconv"
 
-	"github.com/golang/text/internal/catmsg"
-	"github.com/golang/text/internal/number"
-	"github.com/golang/text/language"
-	"github.com/golang/text/message/catalog"
+	"golang.google.cn/x/text/internal/catmsg"
+	"golang.google.cn/x/text/internal/number"
+	"golang.google.cn/x/text/language"
+	"golang.google.cn/x/text/message/catalog"
 )
 
 // TODO: consider deleting this interface. Maybe VisibleDigits is always
@@ -105,7 +105,7 @@ const (
 	kindPrecision  // verb g, number of significant digits follows
 )
 
-var handle = catmsg.Register("github.com/golang/text/feature/plural:plural", execute)
+var handle = catmsg.Register("golang.google.cn/x/text/feature/plural:plural", execute)
 
 func (m *message) Compile(e *catmsg.Encoder) error {
 	e.EncodeMessageType(handle)

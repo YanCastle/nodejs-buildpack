@@ -4,7 +4,7 @@
 
 package collate
 
-import "github.com/golang/text/internal/colltab"
+import "golang.google.cn/x/text/internal/colltab"
 
 const blockSize = 64
 

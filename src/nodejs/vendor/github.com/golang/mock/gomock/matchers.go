@@ -1,4 +1,4 @@
-//go:generate mockgen -destination mock_matcher/mock_matcher.go github.com/golang/mock/gomock Matcher
+//go:generate mockgen -destination mock_matcher/mock_matcher.go golang.google.cn/x/mock/gomock Matcher
 
 // Copyright 2010 Google Inc.
 //

@@ -15,8 +15,8 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/golang/text/encoding"
-	"github.com/golang/text/internal/gen"
+	"golang.google.cn/x/text/encoding"
+	"golang.google.cn/x/text/internal/gen"
 )
 
 const ascii = "\x00\x01\x02\x03\x04\x05\x06\x07\x08\x09\x0a\x0b\x0c\x0d\x0e\x0f" +
@@ -467,8 +467,8 @@ func main() {
 	printf := func(s string, a ...interface{}) { fmt.Fprintf(w, s, a...) }
 
 	printf("import (\n")
-	printf("\t\"github.com/golang/text/encoding\"\n")
-	printf("\t\"github.com/golang/text/encoding/internal/identifier\"\n")
+	printf("\t\"golang.google.cn/x/text/encoding\"\n")
+	printf("\t\"golang.google.cn/x/text/encoding/internal/identifier\"\n")
 	printf(")\n\n")
 	for _, e := range encodings {
 		varNames := strings.Split(e.varName, ",")

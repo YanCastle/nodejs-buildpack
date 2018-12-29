@@ -1,1 +1,1 @@
-Test for [Issue#4](https://github.com/golang/mock/issues/4).
+Test for [Issue#4](https://golang.google.cn/x/mock/issues/4).

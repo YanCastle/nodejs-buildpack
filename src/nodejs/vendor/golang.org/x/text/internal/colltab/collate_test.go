@@ -12,9 +12,9 @@ import (
 	"testing"
 	"unicode"
 
-	"github.com/golang/text/collate"
-	"github.com/golang/text/language"
-	"github.com/golang/text/unicode/rangetable"
+	"golang.google.cn/x/text/collate"
+	"golang.google.cn/x/text/language"
+	"golang.google.cn/x/text/unicode/rangetable"
 )
 
 // assigned is used to only test runes that are inside the scope of the Unicode

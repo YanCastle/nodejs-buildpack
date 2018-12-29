@@ -13,7 +13,7 @@ It has these top-level messages:
 */
 package protobuf
 
-import proto "github.com/golang/protobuf/proto"
+import proto "golang.google.cn/x/protobuf/proto"
 import fmt "fmt"
 import math "math"
 

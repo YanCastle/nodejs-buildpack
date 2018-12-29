@@ -8,7 +8,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/golang/text/language"
+	"golang.google.cn/x/text/language"
 )
 
 // A Renderer renders a Message.

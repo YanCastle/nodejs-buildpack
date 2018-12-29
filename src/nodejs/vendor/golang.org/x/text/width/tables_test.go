@@ -7,7 +7,7 @@ package width
 import (
 	"testing"
 
-	"github.com/golang/text/internal/testtext"
+	"golang.google.cn/x/text/internal/testtext"
 )
 
 const (

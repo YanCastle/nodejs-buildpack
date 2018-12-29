@@ -7,7 +7,7 @@ package runenames_test
 import (
 	"fmt"
 
-	"github.com/golang/text/unicode/runenames"
+	"golang.google.cn/x/text/unicode/runenames"
 )
 
 func Example() {

@@ -9,7 +9,7 @@ import (
 	"bytes"
 
 	"github.com/cloudfoundry/libbuildpack"
-	"github.com/golang/mock/gomock"
+	"golang.google.cn/x/mock/gomock"
 
 	"nodejs/hooks"
 

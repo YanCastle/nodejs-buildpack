@@ -12,7 +12,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/golang/net/internal/nettest"
+	"golang.google.cn/x/net/internal/nettest"
 )
 
 func TestTestConn(t *testing.T) {

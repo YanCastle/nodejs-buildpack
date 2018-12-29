@@ -7,8 +7,8 @@
 package ipv6
 
 import (
-	"github.com/golang/net/bpf"
-	"github.com/golang/net/internal/socket"
+	"golang.google.cn/x/net/bpf"
+	"golang.google.cn/x/net/internal/socket"
 )
 
 func (so *sockOpt) setAttachFilter(c *socket.Conn, f []bpf.RawInstruction) error {

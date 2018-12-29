@@ -10,9 +10,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/golang/net/internal/iana"
-	"github.com/golang/net/ipv4"
-	"github.com/golang/net/ipv6"
+	"golang.google.cn/x/net/internal/iana"
+	"golang.google.cn/x/net/ipv4"
+	"golang.google.cn/x/net/ipv6"
 )
 
 func TestMarshalAndParseExtension(t *testing.T) {

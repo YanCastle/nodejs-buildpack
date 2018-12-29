@@ -10,8 +10,8 @@ import (
 	"net"
 	"unsafe"
 
-	"github.com/golang/net/internal/iana"
-	"github.com/golang/net/internal/socket"
+	"golang.google.cn/x/net/internal/iana"
+	"golang.google.cn/x/net/internal/socket"
 )
 
 func marshalPacketInfo(b []byte, cm *ControlMessage) []byte {

@@ -20,8 +20,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/golang/oauth2"
-	"github.com/golang/oauth2/google"
+	"golang.google.cn/x/oauth2"
+	"golang.google.cn/x/oauth2/google"
 	compute "google.golang.org/api/compute/v1"
 )
 

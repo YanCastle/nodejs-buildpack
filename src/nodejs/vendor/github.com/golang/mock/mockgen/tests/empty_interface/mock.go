@@ -5,7 +5,7 @@
 package empty_interface
 
 import (
-	gomock "github.com/golang/mock/gomock"
+	gomock "golang.google.cn/x/mock/gomock"
 )
 
 // MockEmpty is a mock of Empty interface

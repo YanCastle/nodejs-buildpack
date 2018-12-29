@@ -5,7 +5,7 @@
 package search
 
 import (
-	"github.com/golang/text/internal/colltab"
+	"golang.google.cn/x/text/internal/colltab"
 )
 
 // TODO: handle variable primary weights?

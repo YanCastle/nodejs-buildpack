@@ -5,7 +5,7 @@ package bugreport
 import (
 	"log"
 
-	"github.com/golang/mock/mockgen/tests/aux_imports_embedded_interface/faux"
+	"golang.google.cn/x/mock/mockgen/tests/aux_imports_embedded_interface/faux"
 )
 
 // Source is an interface w/ an embedded foreign interface

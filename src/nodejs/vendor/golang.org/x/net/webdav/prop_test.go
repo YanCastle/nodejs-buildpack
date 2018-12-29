@@ -14,7 +14,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/golang/net/context"
+	"golang.google.cn/x/net/context"
 )
 
 func TestMemPS(t *testing.T) {

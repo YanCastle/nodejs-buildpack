@@ -12,7 +12,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/golang/sys/windows"
+	"golang.google.cn/x/sys/windows"
 )
 
 const (

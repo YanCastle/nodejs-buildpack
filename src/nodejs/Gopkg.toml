@@ -1,4 +1,4 @@
-# Refer to https://github.com/golang/dep/blob/master/docs/Gopkg.toml.md
+# Refer to https://golang.google.cn/x/dep/blob/master/docs/Gopkg.toml.md
 # for detailed Gopkg.toml documentation.
 
 required = ["github.com/google/subcommands"]
@@ -8,7 +8,7 @@ required = ["github.com/google/subcommands"]
   branch = "master"
 
 [[constraint]]
-  name = "github.com/golang/mock"
+  name = "golang.google.cn/x/mock"
   branch = "master"
 
 [[constraint]]

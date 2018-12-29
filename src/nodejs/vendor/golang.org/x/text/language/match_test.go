@@ -14,8 +14,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/golang/text/internal/testtext"
-	"github.com/golang/text/internal/ucd"
+	"golang.google.cn/x/text/internal/testtext"
+	"golang.google.cn/x/text/internal/ucd"
 )
 
 var verbose = flag.Bool("verbose", false, "set to true to print the internal tables of matchers")

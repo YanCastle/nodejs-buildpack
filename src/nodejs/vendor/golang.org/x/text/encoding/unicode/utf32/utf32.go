@@ -10,15 +10,15 @@
 // (https://www.w3.org/TR/html5/document-metadata.html#charset)
 // while WHATWG directly prohibits supporting it
 // (https://html.spec.whatwg.org/multipage/syntax.html#character-encodings).
-package utf32 // import "github.com/golang/text/encoding/unicode/utf32"
+package utf32 // import "golang.google.cn/x/text/encoding/unicode/utf32"
 
 import (
 	"errors"
 	"unicode/utf8"
 
-	"github.com/golang/text/encoding"
-	"github.com/golang/text/encoding/internal/identifier"
-	"github.com/golang/text/transform"
+	"golang.google.cn/x/text/encoding"
+	"golang.google.cn/x/text/encoding/internal/identifier"
+	"golang.google.cn/x/text/transform"
 )
 
 // All lists a configuration for each IANA-defined UTF-32 variant.
@@ -109,7 +109,7 @@ const (
 	// ExpectBOM means that the UTF-32 form must start with a byte order mark,
 	// which will be used to override the default encoding.
 	ExpectBOM BOMPolicy = writeBOM | acceptBOM | requireBOM
-	// Consistent with BOMPolicy definition in github.com/golang/text/encoding/unicode
+	// Consistent with BOMPolicy definition in golang.google.cn/x/text/encoding/unicode
 )
 
 // Endianness is a UTF-32 encoding's default endianness.
